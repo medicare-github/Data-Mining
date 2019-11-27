@@ -56,7 +56,7 @@
 							<div class="hs-text">
 								<h2><span>Check</span> your Away.</h2>
 								<p>Ini merupakan tool website <a href="#" class="text-primary">Univerisitas Bumigora </a>untuk melihat <span class="text-warning">rekomendasi pengambilan penjurusan program studi</span> </p>
-								<a href="pages/general-highschoolPro.php" class="site-btn">choose for SMA</a>
+								<a href="pages/generalMIPA-highschoolPro.php" class="site-btn">choose for SMA</a>
 								<a href="pages/Major-highschoolPro.php" class="site-btn sb-c2">choose for SMK</a>
 							</div>
 						</div>

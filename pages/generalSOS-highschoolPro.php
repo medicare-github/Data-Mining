@@ -2,7 +2,7 @@
 <html lang="zxx">
 <?php
 include '../includes/_head.php';
-include '../proses/proses.php';
+include '../proses/gmsProses.php';
 ?>
 
 <body>
@@ -17,27 +17,32 @@ include '../proses/proses.php';
     ?>
     <!-- Header section end -->
     <section class="how-section spad set-bg" data-setbg="img/how-to-bg.jpg">
+        <div class="container">
+            <div class="category-links text-left">
+                <a href="generalMIPA-highschoolPro.php" >For MIPA</a>
+                <a href="generalSOS-highschoolPro.php" class="active">For SOS</a>
+            </div>
+        </div>
         <div class="container text-white">
-
             <div class="row">
                 <div class="col-md-5">
                     <div class="hs-text">
                         <h1 class="text-danger">SMA</h1>
                         <h2><span>Enter </span> your data.</h2>
                         <p>Masukan data <span class="text-warning">Ujian nasional</span> yang sesuia dengan <span class="text-warning">Ijzah!</span> <span class="text-danger">Okee</span></p>
-                        <form class="contact-from" action="general-highschoolPro.php" method="GET">
+                        <form class="contact-from" action="generalSOS-highschoolPro.php" method="GET">
                             <div class="row">
                                 <div class="col-md-6">
                                     <input type="text" placeholder="Matematika" name="mtk" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" placeholder="Fisika" name="fsk" required>
+                                    <input type="text" placeholder="sosiologi" name="sos" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" placeholder="Kimia" name="kma" required>
+                                    <input type="text" placeholder="geograpy" name="geo" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" placeholder="Biologi" name="bgi" required>
+                                    <input type="text" placeholder="ekonomi" name="eko" required>
                                 </div>
                                 <div class="col-md-6">
                                     <input type="text" placeholder="Bahasa Indonesia" name="bi" required>
