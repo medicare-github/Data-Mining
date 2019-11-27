@@ -1,23 +1,10 @@
 
-/*=================================
------------------------------------
-  SolMusic HTML Template
-  Version: 1.0
- ---------------------------------
- =================================*/
-
-
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
-
 html,
 body {
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	font-synthesis: antialiased;
 }
 
 h1,
