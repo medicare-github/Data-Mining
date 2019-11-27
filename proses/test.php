@@ -32,14 +32,10 @@ if ($_GET == null) {
         $f = $data->bahasa_ing;
         $jrsn = $data->jurusan;
         $hasil = sqrt((pow(($a - $mtk), 2)) + (pow(($b - $fsk), 2)) + (pow(($c - $kma), 2)) + (pow(($d - $bgi), 2)) + (pow(($e - $bi), 2)) + (pow(($f - $bing), 2)));
-        $temp[] = $hasil." - ".$jrsn;
+        $temp[] = $hasil . "-" . $jrsn;
 
 
     endwhile;
-    // for ($i=0; $i <count($temp) ; $i++) { 
-    //     # code...
-    //     echo $temp[$i];
-    // }
     
 ?>
 <?php
@@ -57,7 +53,6 @@ if ($_GET == null) {
         }
         return $temp[1];
     }
-    $ab=$temp[1];
-
+    $ab=print_r(bubble_sort($temp));
     
 }

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <?php
-include 'includes/_head.php';
-// include 'proses/proses.php';
+include '../includes/_head.php';
+include '../proses/proses.php';
 ?>
 
 <body>
     <!-- Page Preloder -->
     <?php
-    include 'includes/_loader.php'
+    include '../includes/_loader.php'
     ?>
 
     <!-- Header section -->
     <?php
-    include 'includes/_header.php';
+    include '../includes/_header.php';
     ?>
     <!-- Header section end -->
     <section class="how-section spad set-bg" data-setbg="img/how-to-bg.jpg">
@@ -24,25 +24,25 @@ include 'includes/_head.php';
                     <div class="hs-text">
                         <h2><span>Enter </span> your data.</h2>
                         <p>Masukan data <span class="text-warning">Ujian nasional</span> yang sesuia dengan <span class="text-warning">Ijzah!</span> <span class="text-danger">Okee</span></p>
-                        <form class="contact-from" action="proses/proses.php" method="GET">
+                        <form class="contact-from" action="general-highschoolPro.php" method="GET">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" placeholder="Matematika" name="mtk">
+                                    <input type="text" placeholder="Matematika" name="mtk" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" placeholder="Fisika" name="fsk">
+                                    <input type="text" placeholder="Fisika" name="fsk" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" placeholder="Kimia" name="kma">
+                                    <input type="text" placeholder="Kimia" name="kma" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" placeholder="Biologi" name="bgi">
+                                    <input type="text" placeholder="Biologi" name="bgi" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" placeholder="Bahasa Indonesia" name="bi">
+                                    <input type="text" placeholder="Bahasa Indonesia" name="bi" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" placeholder="Bahasa Inggris" name="bing">
+                                    <input type="text" placeholder="Bahasa Inggris" name="bing" required>
                                 </div>
                             </div>
                             <button type="submit" class="site-btn btn-block">Go! Check</button>
@@ -57,18 +57,21 @@ include 'includes/_head.php';
                         <h4>Recomendation For You</h4>
                         <p>
                             <?php
-                                
-                            $a = $temp[1];
-
+                            $a =$ab;
                             if ($a == null) {
-                                echo "";
+                                echo "Hasil Belum di Temukan, Kerena Belum Melakukan proses pemasukan data Ujian Nasional!";
                             } else {
-                                echo "<span class='text-warning'>$a Pilihan yang di rekomendasikan berdasarkan Nilai Ujian nasional anda</span>";
+                                ?>
+                                <span class="text-warning"><?php print_r(bubble_sort($temp));?></span> Merupakan Rekomendasi jurusan berdasarkan nilai Unjian nasional anda
+                                
+                                
+                                <?php
+                                
                             }
                             ?>
                         </p>
                         <div class="mb-3">
-                            <img src="images/result.png" height="200" alt="">
+                            <img src="../images/result.png" height="200" alt="">
                         </div>
                     </div>
                 </div>
@@ -77,17 +80,14 @@ include 'includes/_head.php';
     </section>
     <!-- Hero section -->
     <?php
-    include 'includes/_footer.php'
+    include '../includes/_footer.php'
     ?>
     <!-- Footer section end -->
 
     <!--====== Javascripts & Jquery ======-->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/main.js"></script>
+    <?php
+    include '../includes/_scriptjs.php'
+    ?>
 
 </body>
 
