@@ -22,6 +22,7 @@ include '../proses/proses.php';
             <div class="row">
                 <div class="col-md-5">
                     <div class="hs-text">
+                        <h1 class="text-danger">SMA</h1>
                         <h2><span>Enter </span> your data.</h2>
                         <p>Masukan data <span class="text-warning">Ujian nasional</span> yang sesuia dengan <span class="text-warning">Ijzah!</span> <span class="text-danger">Okee</span></p>
                         <form class="contact-from" action="general-highschoolPro.php" method="GET">
@@ -57,16 +58,16 @@ include '../proses/proses.php';
                         <h4>Recomendation For You</h4>
                         <p>
                             <?php
-                            $a =$ab;
+                            $a = $ab;
                             if ($a == null) {
                                 echo "Hasil Belum di Temukan, Kerena Belum Melakukan proses pemasukan data Ujian Nasional!";
                             } else {
                                 ?>
-                                <span class="text-warning"><?php print_r(bubble_sort($temp));?></span> Merupakan Rekomendasi jurusan berdasarkan nilai Unjian nasional anda
-                                
-                                
-                                <?php
-                                
+                                <h5 class="text-warning"><?php print_r(bubble_sort($temp)); ?></h5> Merupakan Rekomendasi jurusan berdasarkan nilai Unjian nasional anda
+
+
+                            <?php
+
                             }
                             ?>
                         </p>
