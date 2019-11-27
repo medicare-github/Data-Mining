@@ -17,8 +17,13 @@ include '../proses/majorProses.php';
     ?>
     <!-- Header section end -->
     <section class="how-section spad set-bg" data-setbg="img/how-to-bg.jpg">
+        <div class="container">
+            <div class="category-links text-left">
+                <a href="Major-highschoolPro.php"class="active">For SMK</a>
+                <a href="generalMIPA-highschoolPro.php"> <span class="text-danger">Anda SMA ? | </span> <span class="text-warning">Klik link!</span> </a>
+            </div>
+        </div>
         <div class="container text-white">
-
             <div class="row">
                 <div class="col-md-5">
                     <div class="hs-text">

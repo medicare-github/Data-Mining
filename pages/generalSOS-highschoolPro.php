@@ -21,6 +21,7 @@ include '../proses/gmsProses.php';
             <div class="category-links text-left">
                 <a href="generalMIPA-highschoolPro.php" >For MIPA</a>
                 <a href="generalSOS-highschoolPro.php" class="active">For SOS</a>
+                <a href="Major-highschoolPro.php"> <span class="text-danger">anda SMK ? | </span> <span class="text-warning">Klik link!</span> </a>
             </div>
         </div>
         <div class="container text-white">
