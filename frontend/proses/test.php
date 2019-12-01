@@ -10,13 +10,14 @@ if ($_GET == null) {
     $bgi = filter_var($_GET["bgi"], FILTER_VALIDATE_FLOAT);
     $bi = filter_var($_GET["bi"], FILTER_VALIDATE_FLOAT);
     $bing = filter_var($_GET["bing"], FILTER_VALIDATE_FLOAT);
-    // var_dump($mtk);
-    // var_dump($fsk);
-    // var_dump($kma);
-    // var_dump($mtk);
-    // var_dump($bgi);
-    // var_dump($bi);
-    // var_dump($bing);
+    var_dump($mtk);
+    var_dump($fsk);
+    var_dump($kma);
+    var_dump($mtk);
+    var_dump($bgi);
+    var_dump($bi);
+    var_dump($bing);
+    echo "<br>";
 
     $query = "SELECT matematika,fisika,kimia,biologi,bahasa_indo,bahasa_ing,jurusan FROM general_highsc";
     $result = mysqli_query($con, $query);
@@ -36,7 +37,11 @@ if ($_GET == null) {
 
 
     endwhile;
-    
+    for ($i=0; $i <count($temp) ; $i++) { 
+        # code...
+        echo $temp[$i];
+        echo "<br>";
+    }
 ?>
 <?php
     function bubble_sort($temp)
@@ -51,8 +56,11 @@ if ($_GET == null) {
                 }
             }
         }
-        return $temp[1];
+        return $temp;
     }
-    $ab=print_r(bubble_sort($temp));
+    
+    print_r(bubble_sort($temp));
+    // $abc=explode("-",print_r(bubble_sort($temp)));
+    // echo $abc[0];
     
 }
