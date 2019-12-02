@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dashboard V.1 | Nalika - Material Admin Template</title>
+    <title>UBG | Check your away</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -102,9 +102,9 @@
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         <div class="breadcomb-report">
 
-                                            <form action="../proses/upload_act.php" method="post" enctype="multipart/form-data">
+                                            <form action="../proses/uploadMajor_act.php" method="post" enctype="multipart/form-data">
                                                 <label title="Upload file" for="inputImage" class="btn btn-success img-cropper-cp">
-                                                    <input type="file" accept=".xlsx" name="file" id="inputImage" class="hide"> Upload file.xlsx
+                                                    <input type="file" accept=".xls" name="file" id="inputImage" class="hide" required> Upload file.xls
                                                 </label>
                                                 <button data-toggle="tooltip" type="submit" data-placement="left" title="" class="btn" data-original-title="Goo! Upload"><i class="icon nalika-upload"></i></button>
                                             </form>

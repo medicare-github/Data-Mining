@@ -4,10 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dashboard V.1 | Nalika - Material Admin Template</title>
+    <title>UBG | Check your away</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <!-- favicon
+    
 		============================================ -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!-- Google Fonts
@@ -22,17 +25,17 @@
     <!-- nalika Icon CSS
 		============================================ -->
     <link rel="stylesheet" href="../css/nalika-icon.css">
-    
+
     <link rel="stylesheet" href="../css/animate.css">
-    
+
     <link rel="stylesheet" href="../css/meanmenu.min.css">
     <!-- main CSS
 		============================================ -->
     <link rel="stylesheet" href="../css/main.css">
-   
+
     <link rel="stylesheet" href="../css/metisMenu/metisMenu.min.css">
     <link rel="stylesheet" href="../css/metisMenu/metisMenu-vertical.css">
-   
+
     <link rel="stylesheet" href="../style.css">
     <!-- responsive CSS
 		============================================ -->
@@ -83,20 +86,20 @@
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         <div class="breadcomb-report">
 
-                                            <form action="../proses/upload_act.php" method="post" enctype="multipart/form-data">
+                                            <form action="../proses/uploadMipa_act.php" method="post" enctype="multipart/form-data">
                                                 <label title="Upload file" for="inputImage" class="btn btn-success img-cropper-cp">
-                                                    <input type="file" accept=".xlsx" name="file" id="inputImage" class="hide"> Upload file.xlsx
+                                                    <input type="file" accept=".xls" name="file" id="inputImage" class="hide" required> Upload file.xls
                                                 </label>
                                                 <button data-toggle="tooltip" type="submit" data-placement="left" title="" class="btn" data-original-title="Goo! Upload"><i class="icon nalika-upload"></i></button>
                                             </form>
                                         </div>
                                         <div class="breadcomb-report">
-                                                <a href="" >
-                                                    <button class="btn btn-danger img-cropper-cp" >Download Data.pdf</button>
-                                                </a>
-                                                <a href="">
-                                                    <button data-toggle="tooltip" data-placement="left" title="" class="btn" data-original-title="Download Data (.pdf)"><i class="icon nalika-download"></i></button>
-                                                </a>
+                                            <a href="">
+                                                <button class="btn btn-danger img-cropper-cp">Download Data.pdf</button>
+                                            </a>
+                                            <a href="">
+                                                <button data-toggle="tooltip" data-placement="left" title="" class="btn" data-original-title="Download Data (.pdf)"><i class="icon nalika-download"></i></button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +119,7 @@
                             <div class="add-product">
                                 <a href="MipaInput.php">Add data</a>
                             </div>
-                            <table>
+                            <table id="example">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -190,16 +193,21 @@
     <!-- bootstrap JS
 		============================================ -->
     <script src="../js/bootstrap.min.js"></script>
-   
+
     <script src="../js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
 		============================================ -->
     <script src="../js/jquery.meanmenu.js"></script>
-   
+
     <script src="../js/plugins.js"></script>
     <!-- main JS
 		============================================ -->
     <script src="../js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+    </script>
 </body>
 
 </html>
