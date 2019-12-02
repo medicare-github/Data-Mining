@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php 
+    date_default_timezone_set("Asia/Bangkok"); 
+    date_default_timezone_get()
+?>
 
 <head>
     <meta charset="UTF-8">
@@ -48,7 +52,7 @@
                 <div class="hpanel">
                     <div class="panel-body text-center lock-inner">
                         <br />
-                        <h4><span class="text-success"><?= date('H:i:s ') ?></span><strong><?php echo date('l, F d, Y');?></strong></h4>
+                        <h4><span class="text-success"><?= date('H:i:s ');?></span><strong><?php echo date('l, F d, Y');?></strong></h4>
                         <p>Your are in lock screen. Main app was shut down and you need to enter your passwor to go back
                             to app.</p>
                         <form action="proses/login_proses.php" class="m-t" method="POST">
