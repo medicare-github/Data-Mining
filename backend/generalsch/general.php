@@ -66,6 +66,7 @@
     <!-- modernizr JS
 		============================================ -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="shortcut icon" href="../img/a.png" type="image/x-icon">
 </head>
 
 <body>

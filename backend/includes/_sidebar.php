@@ -1,7 +1,7 @@
 <div class="left-sidebar-pro">
     <nav id="sidebar" class="">
         <div class="sidebar-header">
-            <a href="index.html"><img class="main-logo" src="../img/logo/logo.png" alt="" /></a>
+            <a href="../generalsch/general.php"><img class="main-logo" src="../img/logo.png" width="170"  alt="" /></a>
             <strong><img src="../img/logo/logosn.png" alt="" /></strong>
         </div>
         <div class="nalika-profile">
@@ -14,7 +14,7 @@
             <nav class="sidebar-nav left-sidebar-menu-pro">
                 <ul class="metismenu" id="menu1">
                     <li class="active">
-                        <a class="has-arrow" href="index.html">
+                        <a class="has-arrow" href="../generalsch/general.php">
                             <i class="fa fa-list-ul"></i>
                             <span class="mini-click-non"> Set Data</span>
                         </a>

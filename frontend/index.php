@@ -39,7 +39,7 @@
 			<a href="#" class="hr-btn">Help</a>
 			<span>|</span>
 			<div class="user-panel">
-				<a href="../backend/index.php" class="login">Login</a>
+				<a href="../backend/index.php" target="blank" class="login">Login</a>
 				<a href="" class="register">Create an account</a>
 			</div>
 		</div>

@@ -16,4 +16,5 @@
 
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="../css/style.css"/>
+	<link rel="shortcut icon" href="../images/logo putih.png" type="image/x-icon">
 </head>
