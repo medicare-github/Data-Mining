@@ -51,9 +51,11 @@ if ($_GET == null) {
                 }
             }
         }
-        return $temp[1];
+        $ab=$temp[1]." (Rekomendasi Pertama) "."<br>".$temp[2]." (Rekomendasi Kedua)";
+        return $ab;
     }
     $ab=$temp[1];
+    $cd=$temp[2];
 
     
 }

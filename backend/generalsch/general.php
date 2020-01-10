@@ -139,6 +139,31 @@
                 </div>
             </div>
         </div>
+        <div class="section-admin container-fluid " style="margin-top: 30px;">
+            <div class="row admin text-center">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                            <div class="admin-content analysis-progrebar-ctn res-mg-t-15">
+                                <h4 class="text-left text-uppercase"><b>DAFTAR REKOMENDASI</b></h4>
+                                <div class="row vertical-center-box vertical-center-box-tablet">
+                                    <div class="col-xs-6 mar-bot-15 text-left">
+                                      <h4 class="text-left text-uppercase"><b> - S1 ILMU KOMPUTER</b></h4>
+                                      <h4 class="text-left text-uppercase"><b> - S1 Komunikasi Visual</b></h4>
+                                      <h4 class="text-left text-uppercase"><b> - S1 Ilmu Gizi</b></h4>
+                                      <h4 class="text-left text-uppercase"><b> - S1 Hukum</b></h4>
+                                      <h4 class="text-left text-uppercase"><b> - D3 Rekaya Perangkat Lunak</b></h4>
+                                      <h4 class="text-left text-uppercase"><b> - D3 Manajemen Informatika</b></h4>
+                                      
+                                    </div>
+                                                                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
 
     </div>
