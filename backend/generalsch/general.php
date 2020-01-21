@@ -149,11 +149,11 @@
                                 <div class="row vertical-center-box vertical-center-box-tablet">
                                     <div class="col-xs-6 mar-bot-15 text-left">
                                       <h4 class="text-left text-uppercase"><b> - S1 ILMU KOMPUTER</b></h4>
-                                      <h4 class="text-left text-uppercase"><b> - S1 Komunikasi Visual</b></h4>
+                                      <h4 class="text-left text-uppercase"><b> - S1 Desain Komunikasi Visual</b></h4>
                                       <h4 class="text-left text-uppercase"><b> - S1 Ilmu Gizi</b></h4>
                                       <h4 class="text-left text-uppercase"><b> - S1 Hukum</b></h4>
                                       <h4 class="text-left text-uppercase"><b> - D3 Rekaya Perangkat Lunak</b></h4>
-                                      <h4 class="text-left text-uppercase"><b> - D3 Manajemen Informatika</b></h4>
+                                      <!-- <h4 class="text-left text-uppercase"><b> - D3 Manajemen Informatika</b></h4> -->
                                       
                                     </div>
                                                                        

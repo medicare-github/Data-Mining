@@ -141,7 +141,13 @@
                                             <div class="review-content-section">
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
-                                                        <input type="text" class="form-control" name="jrsn" placeholder="Jurusan" required>
+                                                        <select name="jrsn" class="form-control" id="">
+                                                          <option value="S1 Ilmu Komputer">S1 Ilmu Komputer</option>
+                                                          <option value="S1 Desain Komunikasi Visual">S1 Desain Komunikasi Visual</option>
+                                                          <option value="D3 Rekayasa Perangkat Lunak">D3 Rekayasa Perangkat Lunak</option>
+                                                          <option value="S1 Gizi">S1 Gizi</option>
+                                                          <option value="S1 Hukum">S1 Hukum</option>
+                                                        </select>
                                                     </div>
                                                 </div>
                                             </div>

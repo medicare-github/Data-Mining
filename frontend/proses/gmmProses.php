@@ -58,7 +58,14 @@ if ($_GET == null) {
         $ab=$temp[1]." (Rekomendasi Pertama) "."<br>".$temp[2]." (Rekomendasi Kedua)";
         return $ab;
     }
+    
     $ab=$temp[1];
 
     
 }
+
+function FunctionName($data1, $data2)
+{
+   
+}
+

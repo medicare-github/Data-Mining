@@ -56,10 +56,10 @@ include '../proses/gmmProses.php';
                         </form>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <img src="" height="200" alt="" srcset="">
                 </div>
-                <div class="col-md-5 mt-5 float-right">
+                <div class="col-md-6 mt-5 float-right">
                     <div class="hs-text">
                         <h4>Recomendation For You</h4>
                         <p>
